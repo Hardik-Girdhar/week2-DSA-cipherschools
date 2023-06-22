@@ -16,7 +16,6 @@ int main(){
 
     cout<<a+b<<endl;   // it will also print the addition of a and b.
     
-
-    return 0;
+return 0;
 
 }
