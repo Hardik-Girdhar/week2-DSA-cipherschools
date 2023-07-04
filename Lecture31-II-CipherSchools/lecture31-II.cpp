@@ -1,13 +1,26 @@
 #include<iostream>
 using namespace std;
 
+void merge(int * arr ,int start ,int end)
+{
+
+}
+
 void mergesort(int *arr,int start , int )
 {
+
+    if(start>=end)
+    {
+        return;
+    }
     int mid;
 
     mid = (start+end)/2;
 
-    mergesort()
+    mergesort(arr,start,mid);
+    mergesort(arr,mid+1,end);
+
+    mergesort(arr,start,end;
 }
 
 int main()
