@@ -20,7 +20,7 @@ void mergesort(int *arr,int start , int )
     mergesort(arr,start,mid);
     mergesort(arr,mid+1,end);
 
-    mergesort(arr,start,end;
+    mergesort(arr,start,end);
 }
 
 int main()
